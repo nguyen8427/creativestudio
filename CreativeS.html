@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/shift.css" rel="stylesheet">
+	<link rel="stylesheet" href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/bootstrap.css">
+<!-- jQuery and Javascript -->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+
+	<title>Creative Studio</title>
+	<style type="text/css">
+
+	body{
+		background-color: #F4F4F4;
+	}
+
+	.top-bar{
+		background-color: black;
+		height: 15px;
+	}
+
+	.navbar-left{
+		font-weight: lighter;
+		font-size: 30px;
+    	color: #fe9b00;
+		
+	}
+
+	.navbar-right{
+		font-family: 'Helvetica Neue' !important;
+		font-size: 12px !important;
+		font-weight: bold;
+		color: #fe9b00 !important;
+		line-height: 70px;
+
+	}
+
+	.dropdown-toggle{
+		font-family: 'Helvetica Neue' !important;
+		font-size: 12px !important;
+		font-weight: bold;
+		color: #fe9b00 !important;
+		line-height: 70px;
+
+	}
+
+
+	.nav li:hover{
+		color: black;
+	}
+
+	
+	.nav li{
+		display: inline;
+		padding-left: 70px;
+
+	}
+
+	.row h4{
+		border-bottom: 5px solid black; 
+		padding-bottom: 10px; 
+		margin-right:20px; 
+		font-weight: bold;
+	}
+
+
+	.pics img{
+		display: inline-block;
+		margin-right: 10px;
+	}
+
+	hr{
+		width: 1150px;
+		border-color: silver;
+	}
+
+	.bottom-nav li{
+		display: inline;
+		border-right: 2px solid gray;
+		padding-right: 5px;
+		padding-left: 5px;
+	
+}
+	.item img{
+		display: block;
+		width:80%;
+		height: 360px !important;
+		padding-left: 20%;
+	}
+
+
+
+	</style>
+</head>
+<body>
+
+<div class="top-bar">
+</div>
+<br/>
+<div class='email'>
+	<div class="container">
+	<p style='float:right'>info@CreativeStudio.com</p>	
+	</div>
+</div>
+
+<div class="nav">
+	<div class="container">
+		<div class= "navbar-left">
+			<img src="images/logo.png">
+		</div>
+
+		<ul class="navbar-right">
+			<li>HOME</li>
+			<li>ABOUT US</li>
+			<li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown"> PORTFOLIO<span class="caret"></span></a>
+		<ul class="dropdown-menu">
+			<li><a href="#">Mountain Web</a></li>
+			<li><a href="#">Coffee Web</a></li>
+			<li><a href="#">Eco Web</a></li>	
+		</ul>
+	</li>
+			<li>SERVICES</li>
+			<li>BLOG</li>
+			<li>CONTACT US</li>
+		</ul>
+	</div>
+
+</div>
+
+<hr>
+
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+    <li data-target="#myCarousel" data-slide-to="2"></li>
+    <li data-target="#myCarousel" data-slide-to="3"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
+    <div class="item active">
+      <img src="images/image1.png">
+    </div>
+
+    <div class="item">
+      <img src="images/mountain.jpg">
+    </div>
+
+    <div class="item">
+      <img src="images/coffee.jpg" >
+    </div>
+
+    <div class="item">
+      <img src="images/eco.jpg">
+    </div>
+  </div>
+</div>
+
+<br/>
+<br/>
+<div class="row">
+<div class="container">
+  <div class="col-md-4">
+  <h4> &rarr; ABOUT US</h4>
+  <p style="width: 267px">Lorem ipsum dolor sit amet, sapien curabitur vehicula praesent eget id, ut lacus. Consequat tincidunt, velit neque, pellentesque ut justo, phasellus amet vitae. Luctus eget nulla ante consectetuer. 
+  </p>
+  </div>
+
+
+  <div class="col-md-4">
+  <h4>&rarr; OUR BENEFITS</h4>
+  
+  <p style="width: 267px">Lorem ipsum dolor sit amet, sapien curabitur vehicula praesent eget id, ut lacus. Consequat tincidunt, velit neque, pellentesque ut justo, phasellus amet vitae. Luctus eget nulla ante consectetuer.
+  </p>
+  <p style="width: 267px">Lorem ipsum dolor sit amet, sapien curabitur vehicula praesent eget id, ut lacus. Consequat tincidunt, velit neque, pellentesque ut justo, phasellus amet vitae. Luctus eget nulla ante consectetuer.
+  </p>
+  </div>
+
+  <div class="col-md-4">
+  <h4>&rarr; TESTIMONIALS</h4>
+  <p style="width: 267px">Lorem ipsum dolor sit amet, sapien curabitur vehicula praesent eget id, ut lacus. Consequat tincidunt, velit neque, pellentesque ut justo, phasellus amet vitae. Luctus eget nulla ante consectetuer. 
+  </p>
+  </div>
+
+</div>
+<hr>
+<div class= "pics">
+<div class="container">
+<h4 style="border-style: none"> &rarr; OUR PORTFOLIO</h4>
+<img src="images/birdhouse.png" width="270px">
+<img src="images/dreamland.png" width="270px">
+<img src="images/social.png" width="270px">
+<img src="images/moving.png" width="270px">
+</div>
+</div>
+<br>
+<hr>
+
+<section>
+	<div class="container">
+	<div class="blog" style=" height: 200px; width: 700px; float: left">
+
+	<h5><strong>&rarr; BLOG UPDATES</strong></h5><br>
+	<p>Lorem ipsum dolor sit amet, sapien curabitur vehicula praesent eget id, ut lacus. Consequat tincidunt, velit neque, pellentesque ut justo, phasellus amet vitae. Luctus eget nulla ante consectetuer. Ac id viverra dictumst aliquam cras sit, quam tempor sapien risus voluptate justo dictum.</p>
+	</div>
+	<div class="connect" style="float: right; padding-right: 100px" >
+		<h5 style="margin-left:15px; font-weight: bold">&rarr; CONNECT WITH US</h5>
+		<br>
+		<img src="images/social1.png">
+	
+
+
+	</div>
+	</div>
+
+</section>
+
+
+<footer class="bottom-nav" style="background-color: #e2e2e2; height: 100px; background-size: cover;">
+<div class="container">
+<div class="bottom-left" style="float: left">
+	<ul style="padding-left:0; padding-top:20px;">
+	<li> Home</li>
+	<li> About Us</li>
+	<li> Portfolio</li>
+	<li> Services</li>
+	<li> Blog</li>
+	<li1> Contact us</li1>
+	</ul>
+	<p> &#169 2010 Creative Studio. All Rights Reserved</p>
+</div>
+<div class="bottom-logo">
+	<img src="images/bottom-logo.png" style="float: right; padding-right: 100px">
+</div>
+	</div>
+</footer>
+
+
+<script>
+$(document).ready(function(){
+  $(".dropdown").on("hide.bs.dropdown", function(){
+    $(".btn").html('Dropdown <span class="caret"></span>');
+  });
+  $(".dropdown").on("show.bs.dropdown", function(){
+    $(".btn").html('Dropdown <span class="caret caret-up"></span>');
+  });
+});
+</script>
+
+
+</body>
+</html>
